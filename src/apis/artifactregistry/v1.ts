@@ -928,7 +928,7 @@ export namespace artifactregistry_v1 {
      */
     description?: string | null;
     /**
-     * Output only. Repository-specific Metadata stored against this version. The fields returned are defined by the underlying repository-specific resource. Currently, the only resource in use is DockerImage
+     * Output only. Repository-specific Metadata stored against this version. The fields returned are defined by the underlying repository-specific resource. Currently, the resources could be: DockerImage MavenArtifact
      */
     metadata?: {[key: string]: any} | null;
     /**
